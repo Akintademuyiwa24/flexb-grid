@@ -13,6 +13,39 @@
     border-radius: 50px;
     
 }
+
+@media screen and (max-width: 375px) {
+    .container{
+        flex-direction: row;
+        width: 100%;
+        
+        flex-wrap: wrap;
+ 
+    }
+     
+    .container .ctn-1{
+        /* width: 100%; */
+        flex-direction: column;
+        border-radius: 8px 8px 0 0;
+    }
+    .ctn-2{
+        flex-direction: column;
+    }
+    .container .ctn-3{
+        flex-direction: column;
+        border-radius: 0 0 8px 8px;
+    }
+    .container #btn-1{
+        position: relative;
+        align-self: center;
+    }
+    a{
+        position: relative;
+        margin: auto;
+        left: 70%;
+    }
+}
+
 a {
     border: 1px solid honeydew;
     border-radius: 6px;
