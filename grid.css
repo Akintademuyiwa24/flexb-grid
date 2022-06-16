@@ -1,0 +1,49 @@
+.container{
+    width: 600px;
+    margin: auto;
+    background-color: darkslateblue;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas:    "header header header header-2 header-2"
+                            "header header header header-2 header-2"
+                            "side side box-1 box-1 box-1"
+                            "side side box-2 box-2 box-2"
+                            "side side box-2 box-2 box-2"
+                            "side side box-2 box-2 box-2"
+                           
+                            
+                        
+    ;
+   
+    grid-gap: 0.8rem;
+   
+}
+
+/* .container div {
+    background-color: turquoise;
+    font-size: 1.5rem;
+    text-align: center;
+} */
+
+.header{
+    background-color: orangered;
+    grid-area: header;
+
+}
+.header-2 {
+    background-color: orange;
+    grid-area: header-2;
+}
+.side{
+    background-color: yellowgreen;
+    grid-area: side;
+}
+.box-1{
+    background-color: aquamarine;
+    grid-area: box-1;
+}
+.box-2{
+    background-color: aquamarine;
+    grid-area: box-2;
+}
