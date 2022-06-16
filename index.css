@@ -1,44 +1,41 @@
 .container {
-    position: absolute;
+    position: relative;
+    top:40px;
     width: 760px;
     height: 410px;
-    margin: 10% auto;
+    margin: auto;
     padding: 15px 0;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
-    left: 25%;
+    left: 0;
     color: #fff;
     border: none;
     border-radius: 50px;
     
 }
-@media screen and (max-width: 1440px) {
-    .container{
-        width: 100%;
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 375px) {
     .container{
+        position: absolute;
+        left: 0;
         flex-direction: row;
         width: 100%;
-        
+        align-self: left;
         flex-wrap: wrap;
- 
+        margin: 0;
     }
      
     .container .ctn-1{
-        /* width: 100%; */
-        flex-direction: column;
+        width: 100%;
+        flex-direction: row;
         border-radius: 8px 8px 0 0;
     }
     .ctn-2{
         flex-direction: column;
     }
     .container .ctn-3{
-        flex-direction: column;
+        flex-direction: row;
         border-radius: 0 0 8px 8px;
     }
     .container #btn-1{
@@ -46,12 +43,13 @@
         align-self: center;
     }
     a{
-        position: relative;
+        position: absolute;
         margin: auto;
-        left: 70%;
+        left: 40%;
+        top: 5px;
+        
     }
 }
-
 a {
     border: 1px solid honeydew;
     border-radius: 6px;
