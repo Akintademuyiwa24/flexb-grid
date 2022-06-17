@@ -6,10 +6,10 @@
 .container {
     position: relative;
     top: 40px;
-    left: 50%;
+    margin-left: 50%;
     width: 760px;
     height: 410px;
-    margin: 5% auto;
+    margin: auto;
     padding: 15px 0;
     display: inline-flex;
     flex-direction: row;
