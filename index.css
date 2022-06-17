@@ -6,6 +6,7 @@
 .container {
     position: relative;
     top: 40px;
+    left: 50%;
     width: 760px;
     height: 410px;
     margin: 5% auto;
