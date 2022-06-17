@@ -66,6 +66,9 @@ a {
     padding: 12px;
     color: #fff;
     text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 50%;
 }
 h2{
     font-size: 20px;
